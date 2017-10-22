@@ -1,0 +1,44 @@
+#main{
+width: 100%;
+}
+#main ol{
+padding:0;
+width:740px;
+margin:0 auto;	
+}
+#main li{
+	height:190px;
+	border:solid black 2px;
+list-style-type:none;
+margin-bottom:20px;
+}
+.header{
+font-size: 27px;
+margin-bottom:5px;	
+}
+.images{
+	display:inline-block
+	list-style-type:none;
+width: 335px;
+height: 190px;
+float:left;
+}
+.writing{
+	display:inline-block;
+	width:380px;
+float:right;	
+}
+
+#image1{
+	background:url(https://www.birchbox.com/images/uploads/Summer_Style_700x400.jpg) no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+#image2{
+	background:url(https://s-media-cache-ak0.pinimg.com/736x/8d/2a/12/8d2a1217febc00c7635466a0511ec63b--guy-fashion-mens-fashion-styles.jpg) no-repeat;
+	background-size:cover;
+}
+#image3{
+	background:url(https://s-media-cache-ak0.pinimg.com/736x/62/c8/f3/62c8f3eea33d644cb3c7a58eefb5c4e9--men-style-blog-guy-style.jpg) no-repeat;
+	background-size:cover;
+}

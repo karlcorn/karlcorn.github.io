@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+*{
+  font-family:Questrial;
+    padding: 0;
+}
+body{
+	margin:0;
+background-color:rgba(0,0,0,0.0.08);	
+-webkit-font-smoothing: antialiased;	
+position:relative;
+top:-110px;
+}
+#menu{
+display:none;	
+}
+#logo{
+position:relative;
+top:88px;
+}
+#logo #full{ 
+  /*width: 145px;*/
+  width:250px;
+}
+#logo #notfull{
+display:none;	
+}
+#under-logo-line{
+display:none;	
+}
+#top-bar{
+width:100%;
+text-align:center;
+/* padding to make both sides equal-distant */
+}
+#top-bar ol{
+ margin: 0;
+  padding: 0;	
+}
+#top-bar li{
+		text-align:center;
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+	display:inline;
+font-size: 17px;
+margin: 10px 2%;
+border-bottom: solid rgba(0,0,0,0) 5px;
+padding-bottom:30px;
+}
+#top-bar a{
+text-decoration:none;
+}
+#top-bar li:hover{
+	border-bottom: solid rgba(0,0,0,1) 5px;
+}
+
+.slider {
+	width: 1024px;
+	margin: 0 auto;
+position:relative;
+top: 15px;
+	opacity: 1;	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.slider-wrapper img{
+object-fit: cover;
+}
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#popular{
+background-color:black;	
+padding: 0 15px;
+padding-top: 10px;
+}
+#top-bar a #popular{
+		color:white;
+padding-bottom:3px;	
+}
+#newsletter{
+float:right;	
+}
+#newsletter img{
+width:40px;
+position:relative;
+top:-48px;
+margin-left:35px;
+}
+#subs{
+	position:relative;
+	top:-94px;
+	right:75px;
+	font-size: 17px;
+}
+.slider{	
+	width:100%;
+}
+@media (max-width: 1222px){
+	body{
+	top: -46.3px;	
+	}
+#subs{
+display:none;	
+}
+#newsletter{
+margin-right:13px;	
+}
+}
+@media (max-width: 777px){
+	body{
+		margin:0;
+	position:relative;
+	top:10px;	
+	}
+	#logo{
+	width: 100%;
+	text-align:center;	
+	position:relative;
+	top:25px;
+	}
+#top-bar{
+	display:none;
+}
+	#menu{
+		display:inline-block;
+position:relative;
+top:-55px;
+left:13px;
+}
+#menu img{ 
+  width:30px;
+}
+#newsletter{
+position:relative;
+top:-48px;	
+}
+.slider{	
+top:-40px;
+	width:100%;
+}
+}
