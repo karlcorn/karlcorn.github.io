@@ -31,12 +31,12 @@ $('#title').animate({'margin-left':'-410px'},1500);
 }
 
 $('#menu1').on('click',function(){
-	$('#more').animate({'margin-left':'0'});
+	$(".dropdown-content").css("display", "block");
 	$('#cross').show();
 	$('#menu1').hide();
 });
 $('#cross').on('click',function(){
-	$('#more').animate({'margin-left':'-777px'});
+	$(".dropdown-content").css("display", "none");
 	$('#cross').hide();
 	$('#menu1').show();
 	

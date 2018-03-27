@@ -6,6 +6,9 @@
   font-family:Questrial;
     padding: 0;
 }
+.dropdown{
+display:none;	
+}
 #title11{
 	position:relative;
 	font-family:Arial Black;
@@ -347,18 +350,24 @@ z-index:-1;
 	font-size:30px;	
 	position:relative;
 	left:-5px;
-	top:15px;
+	top:10px;
 	}
 	#menu{
 		display:inline-block;
 position:fixed;
 z-index:2;
-top:13px;
+top:17px;
 left:20px;
 }
 #menu img{ 
   width:25px;
   height:30px;
+}
+#menu #cross{
+width:20px;
+height:25px;	
+position:relative;
+top:3px;
 }
 #menu img:hover{ 
   cursor:pointer;
@@ -368,32 +377,16 @@ left:20px;
 	}
 	#logo{
 	position:fixed;	
-	top:-50px;
+	top:-40px;
 	background-color:white;
 	z-index:1;
 	padding:0px 0px;
 	}
-	#logo img{
-		float:none;
-	position:relative;
-	top:2px;
-	left:0px;
-	width:66px;
-	}
+
 	#top-bar{
-  padding: 0;
-  margin-top: 7px;
-  width: 100%;
-  display: table;
-  table-layout: auto;
-  visibility:hidden;
+  display:none;
 	}
-	#top-bar a{
- display: table-cell;
-  width: auto;
-  text-align: center;
-  font-size:13px;
-}
+
 #top-bar a #popular{
 	padding-bottom:1px;
 	padding:0;
@@ -428,29 +421,30 @@ width:280px;
 height:280px;
 margin-bottom:20px;
 }
-#more{
-display:block;
-position:fixed;
-top:0;
-width:50%;
-height:100%;
-margin-left:-777px;
-background-color:rgba(0,0,0,0.9);
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
-#phone-top-bar a{
-	display:block;
-	list-style-type:none;
-	border-bottom: solid gray 0.5px;
-	text-align:left;
-	padding:25px;
-	margin: 25px;
-	color:rgba(200,200,200,1);
-	font-size: 17px;
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	top:20px;
+	left:-20px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content li{
+list-style-type:none;
+margin: 20.4px 0;	
 text-decoration:none;
-position:relative;
-top:50px;
 }
-#popp{
-	border-top:solid white 0.5px;	
+.dropdown-content li:hover{
+text-decoration:underline;	
+cursor:pointer;
 }
+
 }
