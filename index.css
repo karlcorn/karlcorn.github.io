@@ -469,7 +469,7 @@ top: 1300px;
 z-index:-1;
 }
 }
-@media screen and (max-width: 580px) and (orientation: landscape){
+@media screen and (max-width: 580px){
 		#menu{
 top:12px;
 }
