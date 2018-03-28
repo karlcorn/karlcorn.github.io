@@ -454,10 +454,11 @@ margin-bottom:20px;
     padding: 12px 16px;
     z-index: 1;
 }
-.dropdown-content li{
+.dropdown-content li, .dropdown-content li a {
 list-style-type:none;
 margin: 20.4px 0;	
 text-decoration:none;
+color:black;
 }
 .dropdown-content li:hover{
 text-decoration:underline;	
