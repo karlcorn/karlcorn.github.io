@@ -512,7 +512,14 @@ z-index:-1;
 }
 }
 @media screen and (max-width: 480px){
+		#menu{
+		display:inline-block;
+position:fixed;
+z-index:2;
+top:14px;
+left:20px;
+}
 	.dropdown-content{
-	top:18;	
+	top:15;	
 	}
 }
