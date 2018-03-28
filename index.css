@@ -470,9 +470,9 @@ z-index:-1;
 }
 @media screen and (max-width: 580px) and (orientation: landscape){
 		#menu{
-top:14px;
+top:12px;
 }
 	.dropdown-content{
-	top:10;	
+	top:11px;	
 	}
 }
