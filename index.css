@@ -468,11 +468,11 @@ top: 1300px;
 z-index:-1;
 }
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 580px) and (orientation: landscape){
 		#menu{
 top:14px;
 }
 	.dropdown-content{
-	top:12;	
+	top:10;	
 	}
 }
