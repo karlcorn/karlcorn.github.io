@@ -1,12 +1,5 @@
 $(document).ready(function(){
-$(window).bind('resize', function(e)
-{
-  if (window.RT) clearTimeout(window.RT);
-  window.RT = setTimeout(function()
-  {
-    this.location.reload(false); /* false to get page from cache */
-  }, 100);
-});
+window.onresize = function(){ location.reload(); }
  
 $('#menu2').hide();
 $('#cross').hide();
