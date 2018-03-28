@@ -17,16 +17,6 @@ width:100%;
 background-color:white;
 z-index:11;
 visibility:hidden;
-animation: cssAnimation 0s ease-in 3s forwards;
--webkit-animation-fill-mode: forwards;
-animation-fill-mode: forwards;
-}
-@-webkit-keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        visibility:hidden;
-    }
 }
 #loaderImg{
 width:60px;
@@ -379,9 +369,6 @@ z-index:-1;
 	left:-5px;
 	top:10px;
 	}
-	#preloader{
-visibility:visible;	
-}
 	#menu{
 		display:inline-block;
 position:fixed;
