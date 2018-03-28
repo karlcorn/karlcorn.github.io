@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	
 $(window).bind('resize', function(e)
 {
   if (window.RT) clearTimeout(window.RT);
