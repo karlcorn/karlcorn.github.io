@@ -1,19 +1,17 @@
 $(document).ready(function(){
-
+	
+$(window).bind('resize', function(e)
+{
+  if (window.RT) clearTimeout(window.RT);
+  window.RT = setTimeout(function()
+  {
+    this.location.reload(false); /* false to get page from cache */
+  }, 100);
+});
+ 
 $('#menu2').hide();
 $('#cross').hide();
 		if($("#example").css("display") == "block"){
-			
-
-$('#title').animate({'margin-left':'-410px'},1500);
-					$('.speech-bubble').hide();
-					$('#speech-bubbles').hide();
-				$('.shop,#speechbubble,#speechbubbles').hover(function(e){
-					e.preventDefault();
-					$('#speech-bubbles').stop().toggle();
-					$('.speech-bubble').stop().slideToggle();
-});
-
 
   var scrollTop = 0;
   $(window).scroll(function(){

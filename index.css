@@ -2,12 +2,69 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+
 *{
   font-family:Questrial;
     padding: 0;
 }
 .dropdown{
 display:none;	
+}
+#preloader{
+	position:fixed;
+height:100%;
+width:100%;
+background-color:white;
+z-index:11;
+visibility:hidden;
+    -moz-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+#loaderImg{
+width:60px;
+height:60px;
+display:table;
+margin:0 auto;
+position:relative;
+top:40%;
+}
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	30% { transform: scale(1.05); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1.02); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
+#loaderImg {
+	animation-name: pulse_animation;
+	animation-duration: 3000ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 #title11{
 	position:relative;
@@ -313,7 +370,7 @@ top: 17px;
 
 .slider-wrapper {
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	position: relative;
 }
 
@@ -342,7 +399,7 @@ margin-left:35px;
 top:-112px;
 }
 footer{
-top: 1250px;
+top: 1370px;
 z-index:-1;
 }
 @media screen and (max-width: 800px) {
@@ -352,6 +409,9 @@ z-index:-1;
 	left:-5px;
 	top:10px;
 	}
+	#preloader{
+visibility:visible;	
+}
 	#menu{
 		display:inline-block;
 position:fixed;
@@ -365,7 +425,7 @@ left:20px;
 }
 #menu #cross{
 width:20px;
-height:25px;	
+height:20px;	
 position:relative;
 top:3px;
 }
@@ -403,7 +463,7 @@ top:12px;
 }
 .slider-wrapper {
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	position: relative;
 }
 #three-boxes{
@@ -429,7 +489,7 @@ margin-bottom:20px;
 .dropdown-content {
     display: none;
     position: absolute;
-	top:20px;
+	top:25px;
 	left:-20px;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -446,5 +506,13 @@ text-decoration:none;
 text-decoration:underline;	
 cursor:pointer;
 }
-
+footer{
+top: 1300px;
+z-index:-1;
+}
+}
+@media screen and (max-width: 480px){
+	.dropdown-content{
+	top:18;	
+	}
 }
