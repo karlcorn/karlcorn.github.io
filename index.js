@@ -17,7 +17,7 @@ $('#cross').hide();
     scrollTop = $(window).scrollTop();
      $('.counter').html(scrollTop);
     
-    if (scrollTop >= 99) {
+    if (scrollTop >= 94) {
       $('#global-nav').addClass('scrolled-nav').css({'position': 'fixed'});
 	  $('#block img').css({'top': '28px'});
     } else if (scrollTop < 115) {

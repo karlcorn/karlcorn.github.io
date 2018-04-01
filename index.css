@@ -10,27 +10,6 @@
 .dropdown{
 display:none;	
 }
-#preloader{
-	position:fixed;
-height:100%;
-width:100%;
-background-color:white;
-z-index:11;
-visibility:hidden;
-}
-#loaderImg{
-width:60px;
-height:60px;
-display:table;
-margin:0 auto;
-position:relative;
-top:40%;
-}
-#title11{
-	position:relative;
-	font-family:"Arial Black";
-	font-size:50px;
-}
 #example{
 display:block;	
 }
@@ -50,12 +29,11 @@ display:none;
 #logo{
 width: 100%;
 text-align:center;	
-margin-top: 20px;
-margin-bottom: 25px;
+margin-top: 25px;
+margin-bottom: 44px;
 }
 #logo img{ 
-  /*width: 145px;*/
-  width:100px;
+  width:300px;
   display:inline;
 }
 #under-logo-line{
@@ -252,13 +230,6 @@ color: rgba(255,255,255,0.55);
 	position:absolute;
 	top:1000px;
 	}
-	#title11{
-	font-size:33px;
-	position:fixed;
-top:-6px;
-left:10px;
-z-index:9;
-	}
 body{
 	margin:0;
 background-color:rgba(0,0,0,0.0.08);	
@@ -277,12 +248,11 @@ display:none;
 	width:100%;
 }
 #logo img{
-	float:left;
 	position:fixed;
-	top:5px;
+	top:22px;
 	left:10px;
-	z-index:2;
-	width:70px;
+	z-index:9;
+	width:200px;
 }
 #under-logo-line{
 display:none;	
@@ -324,7 +294,7 @@ top:45px;
 	width: 1024px;
 	margin: 0 auto;
 position:relative;
-top: 17px;
+top: 3px;
 	opacity: 1;	
 }
 
@@ -355,7 +325,7 @@ margin-left:35px;
 }
 #three-boxes #images li{
 	height: 400px;
-	width:49%;
+	width:50%;
 top:-112px;
 }
 footer{
@@ -363,12 +333,6 @@ top: 1370px;
 z-index:-1;
 }
 @media screen and (max-width: 600px) {
-	#title11{
-	font-size:30px;	
-	position:relative;
-	left:-5px;
-	top:10px;
-	}
 	#menu{
 		display:inline-block;
 position:fixed;
@@ -386,20 +350,32 @@ height:20px;
 position:relative;
 top:3px;
 }
+#menu1{
+	position:relative;
+	top:-5px;
+	left:-10px;	
+}
 #menu img:hover{ 
   cursor:pointer;
 }
 	#example{
 	display:none;	
 	}
-	#logo{
+#logo{
 	position:fixed;	
 	top:-40px;
 	background-color:white;
 	z-index:1;
-	padding:0px 0px;
+	padding:10px 0px;
 	}
-
+#logo img{
+	position:relative;
+	top:13px;
+	left:-4px;
+	display:inline-block;
+	z-index:2;
+	width:180px;
+}
 	#top-bar{
   display:none;
 	}
@@ -409,10 +385,6 @@ top:3px;
 	padding:0;
 	background-color:rgba(0,0,0,0);
 	color:black;	
-}
-#under-logo-line{
-display:block;
-margin-top: -50px;	
 }
 .slider{
 top:12px;	
@@ -468,12 +440,4 @@ footer{
 top: 1300px;
 z-index:-1;
 }
-}
-@media screen and (max-width: 480px){
-		#menu{
-top:16px;
-}
-	.dropdown-content{
-	top:26px;	
-	}
 }
