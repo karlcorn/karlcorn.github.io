@@ -1,12 +1,21 @@
 $(document).ready(function(){
-$(window).bind('resize', function(e)
+$(window).on('resize',function(){
+    if (($(window).width() > 1050) && ($(window).width() < 1080)) {   
+      location.reload();  // refresh page 
+    }
+    else {  
+      // Width greater than 768px for PC 
+      // Or width is smaller than 480 for mobile
+    }
+}); 
+/*$(window).bind('resize', function(e)
 {
   if (window.RT) clearTimeout(window.RT);
   window.RT = setTimeout(function()
   {
-    this.location.reload(false); /* false to get page from cache */
+    this.location.reload(false);
   }, 100);
-});
+});*/
  
 $('#menu2').hide();
 $('#cross').hide();
