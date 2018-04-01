@@ -355,6 +355,7 @@ left:-12px;
 #logo{
 	position:fixed;	
 	top:-46px;
+	left:2px;
 	background-color:white;
 	z-index:1;
 	padding:18px 0px;
