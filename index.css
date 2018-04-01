@@ -335,7 +335,7 @@ footer{
 top: 1262px;
 z-index:-1;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 	#menu{
 		display:inline-block;
 position:fixed;
