@@ -235,11 +235,6 @@ body{
 background-color:rgba(0,0,0,0.0.08);	
 -webkit-font-smoothing: antialiased;	
 }
-#top-bar a{
-position:relative;
-left:40px;	
-top:-5px;
-}
 
 #top-bar a #popular{
 	padding-bottom:20px;
@@ -277,7 +272,6 @@ text-align:center;
  margin: 0;
  width:100%;
   padding: 0;
-
 }
 #top-bar li{
 		text-align:center;
@@ -293,12 +287,11 @@ padding-bottom:20px;
 
 float:right;
 position:relative;
-right:30px;
-top:45px;
+right:-10px;
+top:40px;
+border-bottom: solid black 0px	;
 }
-#top-bar li{
-	border-bottom: solid black 0px	;
-}
+
 #top-bar li:hover {
 	border-bottom: solid black 5px	;
 }
@@ -316,26 +309,8 @@ top: -13px;
 	position: relative;
 }
 
-
-#newsletter{
-float:right;	
-}
-#newsletter img{
-width:40px;
-position:relative;
-top:-48px;
-margin-left:35px;
-}
-#subs{
-	position:relative;
-	top:-94px;
-	right:75px;
-	font-size: 17px;
-}
 .slider{	
 	width:100%;
-}
-#three-boxes{
 }
 #three-boxes #images li{
 	height: 400px;
