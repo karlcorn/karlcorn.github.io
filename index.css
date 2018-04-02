@@ -329,6 +329,18 @@ margin-bottom:-50px;
 footer{
 top: 1262px;
 z-index:-1;
+height:180px;
+}
+footer #log{
+	width:200px;
+	top:19px;
+}
+footer #ig{
+top:8px;
+width:150px;	
+}
+#copyright{
+top:-2px;	
 }
 @media screen and (max-width: 600px) {
 	#menu{
@@ -441,5 +453,17 @@ cursor:pointer;
 footer{
 top: 1300px;
 z-index:-1;
+height:150px;
+}
+footer #log{
+	width:180px;
+	top:15px;
+}
+footer #ig{
+top:0px;
+width:130px;	
+}
+#copyright{
+top:-15px;	
 }
 }
