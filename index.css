@@ -177,39 +177,35 @@ width:100%;
 padding:0;
 margin:0;
 }
-footer img{	
-width:100%;
-}
 body {
 margin:0;
 padding:0;
 }
-
-/*footer{
+footer #log{
+width:280px;
+position:relative;
+top:30px;
+}
+footer #ig{
+width:170px;
+position:relative;
+top:15px;
+left:-3px;
+}
+footer{
   position: absolute;
 top: 1000px;
 width: 100%;
-height: 120px;
+height: 220px;
 text-align:center;
-background: rgba(27,29,31,0.9);
+background: rgba(0,0,0,0.9);
 left:0;
-}
-footer li{
-	margin: 20px 5px;
-	margin-bottom: 10px;
-	margin-top: 8px;
-display: inline-block;
-font-size: 20px;
-color: rgba(255,255,255,0.65);	
-}*/
-ol .underline {
-color: rgba(255,255,255,0.65);	
-font-family:"Arial Black";
 }
 #copyright{
 	position:relative;
-	top: 20px;
-color: rgba(255,255,255,0.55);	
+	top: 5px;
+	font-size:17px;
+color: rgba(255,255,255,1);	
 }
 .counter {
   width: 20px;
