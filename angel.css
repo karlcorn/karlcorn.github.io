@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
-@import url('https://fonts.googleapis.com/css?family=Oswald:600,700');
-
 *{
   font-family:Questrial;
     padding: 0;
@@ -84,150 +81,6 @@ padding-top: 10px;
 		color:white;
 padding-bottom:4px;	
 }
-
-
-.slider {
-	width: 1024px;
-	margin: 0 auto;
-position:relative;
-top: 20px;
-	opacity: 1;	
-}
-
-.slider-wrapper {
-	width: 100%;
-	height: 400px;
-	position: relative;
-}
-.slider-wrapper img{
-object-fit: cover;
-}
-.slide {
-	float: left;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 3s linear;
-}
-
-.slider-wrapper > .slide:first-child {
-	opacity: 1;
-}
-
-#three-boxes{
-text-align:center;
-margin-top: 145px;
-}
-#three-boxes #images li{
-	height: 350px;
-	width:335px;
-display:inline-block;
-position:relative;
-top:-118px;
-}
-#box1{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/stapleblackout_ls_front_900x.png?v=1517250798) no-repeat;
-background-size:contain;	
-}
-
-#box2{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/V_LONE_OCT_20171858_9b2589a4-cdad-4d45-b1a2-9d5d83e3526f_900x.jpg?v=1509563065) no-repeat;
-background-size:contain;	
-margin-left: 0.5%;
-margin-right:0.5%;
-}
-#box3{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/stapleLS_purp_black_front_900x.png?v=1517269701) no-repeat;
-background-size:contain;
-}
-#three-boxes ol li div{
-	position:relative;
-	padding:5px;
-	background:rgba(256,256,256,0.8);
-	font-weight:800;
-	font-size:30px;
-color:black;
-opacity: 0;
-   transition: opacity .5s ease-in-out;
-width:90%;
-margin:0 auto;
-height:100%;
-}
-#three-boxes ol li span{
-position:relative;
-transition: all 0.5s ease 0s;
-top:60%;
-font-family:Oswald;
-
-}
-#three-boxes li:hover div{
-	opacity:1;
-}
-#three-boxes li:hover span{
-top:30%;
-}
-#title{
-	font-weight: 300;
-font-size: 50px;
-width: 100%;
-text-align:center;
-position:absolute;
-margin-top: -100px;
-margin-left: -1300px;	
-}
-
-.popular, .men, .women, .technology, .top,.shop{
-text-decoration:none;
-}
-
-#example{
-display:block;	
-}
-
-.header:hover{
-text-decoration: underline;
-}
-.images:hover{
- filter: brightness(80%);
- transform:scale(1.02);
-  transition: all 0.3s ease-in; 
-}
-footer{
-width:100%;	
-padding:0;
-margin:0;
-}
-body {
-margin:0;
-padding:0;
-}
-footer #log{
-width:280px;
-position:relative;
-top:30px;
-}
-footer #ig{
-width:170px;
-position:relative;
-top:15px;
-left:-3px;
-}
-footer{
-  position: absolute;
-top: 1000px;
-width: 100%;
-height: 220px;
-text-align:center;
-background: rgba(0,0,0,0.9);
-left:0;
-}
-#copyright{
-	position:relative;
-	top: 5px;
-	font-size:17px;
-color: rgba(255,255,255,1);	
-}
 .counter {
   width: 20px;
   height: 10px;
@@ -251,7 +104,155 @@ color: rgba(255,255,255,1);
   top: 0px;
 left:7px;
 }
-@media screen and (max-width: 1070px) {
+#example{
+display:block;	
+}
+#picture{
+position:relative;
+left:-200px;
+top:50px;	
+}
+body {
+margin:0
+}
+.mySlides {
+display:none;
+}
+#first{
+display:block;	
+}
+img {
+vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width:300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+footer{
+width:100%;	
+padding:0;
+margin:0;
+}
+body {
+margin:0;
+padding:0;
+}
+footer #log{
+width:280px;
+position:relative;
+top:30px;
+}
+footer #ig{
+width:170px;
+position:relative;
+top:15px;
+left:-3px;
+}
+footer{
+  position: absolute;
+top: 800px;
+width: 100%;
+height: 220px;
+text-align:center;
+background: rgba(0,0,0,0.9);
+left:0;
+}
+#copyright{
+	position:relative;
+	top: 5px;
+	font-size:17px;
+color: rgba(255,255,255,1);	
+}
+@media screen and (max-width: 830px) {
+	#picture{
+	left:30px;
+	float:left;	
+	}
 	#example{
 	display:none;	
 	}
@@ -325,31 +326,8 @@ border-bottom: solid black 0px	;
 #top-bar li:hover {
 	border-bottom: solid black 5px	;
 }
-.slider {
-	width: 1024px;
-	margin: 0 auto;
-position:relative;
-top: -13px;
-	opacity: 1;	
-}
-
-.slider-wrapper {
-	width: 100%;
-	height: 400px;
-	position: relative;
-}
-
-.slider{	
-	width:100%;
-}
-#three-boxes #images li{
-	height: 400px;
-	width:44%;
-top:-130px;
-margin-bottom:-50px;
-}
 footer{
-top: 1262px;
+top: 700px;
 z-index:-1;
 height:180px;
 }
@@ -364,7 +342,12 @@ width:150px;
 #copyright{
 top:-2px;	
 }
+}
 @media screen and (max-width: 600px) {
+	#picture{
+	left:0px;
+	float:none;	
+	}
 	#menu{
 		display:inline-block;
 position:fixed;
@@ -419,30 +402,7 @@ left:-12px;
 	background-color:rgba(0,0,0,0);
 	color:black;	
 }
-.slider{
-top:12px;	
-	width:100%;
-}
-.slider-wrapper {
-	width: 100%;
-	height: 300px;
-	position: relative;
-}
-#three-boxes{
-width:100%;
-text-align:center;	
-}
-#three-boxes ol{
-	display:table;
-	margin:auto;
-}
-#three-boxes #images li{
-	display:block;
-top:-100px;
-width:280px;
-height:280px;
-margin-bottom:20px;
-}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -472,7 +432,7 @@ border-bottom: solid black 4px;
 cursor:pointer;
 }
 footer{
-top: 1300px;
+top: 900px;
 z-index:-1;
 height:150px;
 }
