@@ -226,8 +226,9 @@ color: rgba(255,255,255,1);
   padding: 25px;
   padding-bottom: 60px;
   color:black;
+    position:relative;
   top: 0px;
-  position:relative;
+left:7px;
 }
 @media screen and (max-width: 1070px) {
 	#example{
