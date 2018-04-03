@@ -2,6 +2,7 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600,700');
 
 *{
   font-family:Questrial;
@@ -140,11 +141,30 @@ margin-right:0.5%;
 background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/stapleLS_purp_black_front_900x.png?v=1517269701) no-repeat;
 background-size:contain;
 }
-#box1,#box2,#box3{
-opacity:0.8;	
+#three-boxes ol li div{
+	position:relative;
+	padding:5px;
+	background:rgba(256,256,256,0.8);
+	font-weight:800;
+	font-size:30px;
+color:black;
+opacity: 0;
+   transition: opacity .5s ease-in-out;
+width:90%;
+margin:0 auto;
+height:100%;
 }
-#box1:hover,#box2:hover,#box3:hover{
-opacity:1;	
+#three-boxes ol li span{
+position:relative;
+transition: all 0.5s ease 0s;
+top:60%;
+font-family:Oswald;
+}
+#three-boxes li:hover div{
+	opacity:1;
+}
+#three-boxes li:hover span{
+top:30%;
 }
 #title{
 	font-weight: 300;
