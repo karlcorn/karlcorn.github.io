@@ -356,7 +356,7 @@ top:-2px;
 	#picture{
 	left:0px;
 	float:none;	
-	top:25px;
+	top:12px;
 	}
 	#menu{
 		display:inline-block;
@@ -389,10 +389,10 @@ left:-12px;
 	}
 #logo{
 	position:fixed;	
-	top:-46px;
+	top:-51px;
 	background-color:white;
 	z-index:1;
-	padding:18px 0px;
+	padding:22px 0px;
 	}
 #logo img{
 	position:relative;
@@ -421,7 +421,7 @@ left:-12px;
 .dropdown-content {
     display: none;
     position: absolute;
-	top:14px;
+	top:22px;
 	left:-20px;
     background-color: #f9f9f9;
     min-width: 100px;
