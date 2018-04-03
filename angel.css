@@ -252,6 +252,7 @@ color: rgba(255,255,255,1);
 	#picture{
 	left:30px;
 	float:left;	
+	top:-5px;
 	}
 	#example{
 	display:none;	
