@@ -127,7 +127,7 @@ vertical-align: middle;
 
 /* Slideshow container */
 .slideshow-container {
-  width:300px;
+  width:400px;
   position: relative;
   margin: auto;
 }
@@ -235,7 +235,7 @@ left:-3px;
 }
 footer{
   position: absolute;
-top: 800px;
+top: 940px;
 width: 100%;
 height: 220px;
 text-align:center;
@@ -249,8 +249,12 @@ left:0;
 color: rgba(255,255,255,1);	
 }
 @media screen and (max-width: 830px) {
+	.slideshow-container {
+  width:350px;
+  position: relative;
+}
 	#picture{
-	left:30px;
+	left:20px;
 	float:left;	
 	top:-5px;
 	}
@@ -345,6 +349,10 @@ top:-2px;
 }
 }
 @media screen and (max-width: 600px) {
+		.slideshow-container {
+  width:350px;
+  position: relative;
+}
 	#picture{
 	left:0px;
 	float:none;	
