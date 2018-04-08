@@ -223,21 +223,21 @@ margin:0;
 padding:0;
 }
 footer #log{
-width:280px;
+width:220px;
 position:relative;
-top:30px;
+top:17px;
 }
 footer #ig{
-width:170px;
+width:150px;
 position:relative;
-top:15px;
+top:10px;
 left:-3px;
 }
 footer{
   position: absolute;
-top: 940px;
+top: 1000px;
 width: 100%;
-height: 220px;
+height: 180px;
 text-align:center;
 background: rgba(0,0,0,0.9);
 left:0;
@@ -332,17 +332,17 @@ border-bottom: solid black 0px	;
 	border-bottom: solid black 5px	;
 }
 footer{
-top: 700px;
+top: 1262px;
 z-index:-1;
-height:180px;
+height:160px;
 }
 footer #log{
-	width:200px;
-	top:19px;
+	width:180px;
+	top:12px;
 }
 footer #ig{
-top:8px;
-width:150px;	
+top:3px;
+width:140px;	
 }
 #copyright{
 top:-2px;	

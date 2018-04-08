@@ -7,6 +7,7 @@
 *{
   font-family:Questrial;
     padding: 0;
+	text-decoration:none;
 }
 .dropdown{
 display:none;	
@@ -156,16 +157,12 @@ height:100%;
 }
 #three-boxes ol li span{
 position:relative;
-transition: all 0.5s ease 0s;
-top:60%;
+transition: all 1s ease 0s;
+top:30%;
 font-family:Oswald;
-
 }
 #three-boxes li:hover div{
 	opacity:1;
-}
-#three-boxes li:hover span{
-top:30%;
 }
 #title{
 	font-weight: 300;
@@ -203,21 +200,21 @@ margin:0;
 padding:0;
 }
 footer #log{
-width:280px;
+width:220px;
 position:relative;
-top:30px;
+top:17px;
 }
 footer #ig{
-width:170px;
+width:150px;
 position:relative;
-top:15px;
+top:10px;
 left:-3px;
 }
 footer{
   position: absolute;
 top: 1000px;
 width: 100%;
-height: 220px;
+height: 180px;
 text-align:center;
 background: rgba(0,0,0,0.9);
 left:0;
@@ -351,20 +348,23 @@ margin-bottom:-50px;
 footer{
 top: 1262px;
 z-index:-1;
-height:180px;
+height:160px;
 }
 footer #log{
-	width:200px;
-	top:19px;
+	width:180px;
+	top:12px;
 }
 footer #ig{
-top:8px;
-width:150px;	
+top:3px;
+width:140px;	
 }
 #copyright{
 top:-2px;	
 }
 @media screen and (max-width: 600px) {
+	#three-boxes ol li div{
+	text-decoration:none;	
+	}
 	#menu{
 		display:inline-block;
 position:fixed;
@@ -474,17 +474,18 @@ cursor:pointer;
 footer{
 top: 1300px;
 z-index:-1;
-height:150px;
+height:120px;
 }
 footer #log{
-	width:180px;
-	top:15px;
+	width:150px;
+	top:2px;
 }
 footer #ig{
-top:0px;
-width:130px;	
+top:-9px;
+width:120px;	
 }
 #copyright{
-top:-15px;	
+	font-size:15px;
+top:-18px;	
 }
 }
