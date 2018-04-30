@@ -368,7 +368,8 @@ border-bottom: solid black 0px	;
 }
 #side{
 position:relative;
-left:-10px;
+top:0;
+left:-15px;
 float:right;
 width:37%;
 }
