@@ -365,12 +365,30 @@ right:-10px;
 top:40px;
 border-bottom: solid black 0px	;
 }
-
+#side{
+position:relative;
+top:-20px;
+left:-10px;
+float:right;
+width:37%;
+}
+#side h1{
+font-size:30px;	
+}
+#side #price{
+font-size:25px;
+}
+#side h2{
+font-size:20px;
+}
+#side h3{
+font-size:15px;
+}
 #top-bar li:hover {
 	border-bottom: solid black 5px	;
 }
 footer{
-top: 1262px;
+top: 700px;
 z-index:-1;
 height:160px;
 }
@@ -479,8 +497,54 @@ border-bottom: solid black 0px;
 border-bottom: solid black 4px;
 cursor:pointer;
 }
+#side{
+position:relative;
+top:20px;
+float:none;
+width:330px;
+}
+#side h1{
+font-size:30px;	
+text-align:left;
+}
+#side #price{
+font-size:25px;
+text-align:left;
+position:relative;
+top:-10px;
+}
+#side #mat{
+text-align:left;	
+position:relative;
+top:-53px;
+}
+#side h2{
+font-size:20px;
+text-align:left;
+position:relative;
+top:-25px;
+}
+#side h3{
+font-size:15px;
+text-align:left;
+position:relative;
+top:-30px;
+}
+#side span{
+text-align:left;
+}
+#color{
+text-align:left;
+position:relative;
+top:-70px;
+}
+#description{
+text-align:left;
+position:relative;
+top:-67px;
+}
 footer{
-top: 900px;
+top: 1070px;
 z-index:-1;
 height:150px;
 }
