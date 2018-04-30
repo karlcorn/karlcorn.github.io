@@ -248,6 +248,44 @@ left:0;
 	font-size:17px;
 color: rgba(255,255,255,1);	
 }
+#side{
+position:relative;
+left:230px;	
+width:260px;
+margin:0 auto;
+top: -600px;
+height:100px;
+}
+#side div{
+width:100%;
+text-align:center;
+}
+#side h1,h2,h3,h4,h5{
+font-family:arial;	
+text-align:right;
+}
+#price{
+color:rgba(153,0,0,1);
+}
+#side h2{
+font-family:sans-serif;
+text-align:right;	
+}
+#side h3{
+position:relative;
+top:-20px;	
+}
+#side span{
+font-style:italic;	
+}
+#color{
+position:relative;
+top:-20px;	
+}
+#description{
+font-style:italic;
+text-align:right;	
+}
 @media screen and (max-width: 830px) {
 	.slideshow-container {
   width:350px;
