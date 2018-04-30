@@ -128,18 +128,18 @@ position:relative;
 top:-118px;
 }
 #box1{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/stapleblackout_ls_front_900x.png?v=1517250798) no-repeat;
+background: url("images/rajfront.jpg") no-repeat;
 background-size:contain;	
 }
 
 #box2{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/V_LONE_OCT_20171858_9b2589a4-cdad-4d45-b1a2-9d5d83e3526f_900x.jpg?v=1509563065) no-repeat;
+background: url("images/fronts1.jpg") no-repeat;
 background-size:contain;	
 margin-left: 0.5%;
 margin-right:0.5%;
 }
 #box3{
-background: url(https://cdn.shopify.com/s/files/1/1573/4251/products/stapleLS_purp_black_front_900x.png?v=1517269701) no-repeat;
+background: url("images/rajfront.jpg") no-repeat;
 background-size:contain;
 }
 #three-boxes ol li div{
