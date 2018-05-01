@@ -125,31 +125,38 @@ margin-top: 145px;
 	width:335px;
 display:inline-block;
 position:relative;
-top:-118px;
+top:-10px;
 }
 #box1{
-background: url("images/rajfront.jpg") no-repeat;
+background: url("images/romeo1.jpg") no-repeat;
 background-size:contain;	
 }
-
-#box2{
-background: url("images/fronts1.jpg") no-repeat;
+#box1:hover{
+background: url("images/romeo2.jpg") no-repeat;
 background-size:contain;	
-margin-left: 0.5%;
-margin-right:0.5%;
+}
+#box2{
+background: url("images/titanic1.jpg") no-repeat;
+background-size:contain;	
+}
+#box2:hover{
+background: url("images/titanic2.jpg") no-repeat;
+background-size:contain;	
 }
 #box3{
-background: url("images/rajfront.jpg") no-repeat;
-background-size:contain;
+background: url("images/romeo1.jpg") no-repeat;
+background-size:contain;	
+}
+#box3:hover{
+background: url("images/romeo2.jpg") no-repeat;
+background-size:contain;	
 }
 #three-boxes ol li div{
 	position:relative;
 	padding:5px;
-	background:rgba(256,256,256,0.8);
 	font-weight:800;
 	font-size:30px;
 color:black;
-opacity: 0;
    transition: opacity .5s ease-in-out;
 width:90%;
 margin:0 auto;
@@ -157,12 +164,8 @@ height:100%;
 }
 #three-boxes ol li span{
 position:relative;
-transition: all 1s ease 0s;
-top:30%;
+top:-25%;
 font-family:Oswald;
-}
-#three-boxes li:hover div{
-	opacity:1;
 }
 #title{
 	font-weight: 300;
@@ -212,7 +215,7 @@ left:-3px;
 }
 footer{
   position: absolute;
-top: 1000px;
+top: 1070px;
 width: 100%;
 height: 180px;
 text-align:center;
@@ -311,7 +314,6 @@ margin:10px;
 border-bottom: solid rgba(0,0,0,0) 5px;
 padding-top:0;
 padding-bottom:20px;
-
 float:right;
 position:relative;
 right:-10px;
@@ -342,11 +344,20 @@ top: -13px;
 #three-boxes #images li{
 	height: 400px;
 	width:44%;
-top:-130px;
-margin-bottom:-50px;
+top:-30px;
+margin-bottom:10%;
 }
+#three-boxes ol #box3{
+width:44%;	
+}
+#three-boxes ol li span{
+position:relative;
+top:-20%;
+font-family:Oswald;
+}
+
 footer{
-top: 1262px;
+top: 1500px;
 z-index:-1;
 height:160px;
 }
@@ -428,6 +439,11 @@ top:12px;
 	height: 300px;
 	position: relative;
 }
+#three-boxes ol li span{
+position:relative;
+top:-33%;
+font-family:Oswald;
+}
 #three-boxes{
 width:100%;
 text-align:center;	
@@ -438,10 +454,10 @@ text-align:center;
 }
 #three-boxes #images li{
 	display:block;
-top:-100px;
+top:10px;
 width:280px;
 height:280px;
-margin-bottom:20px;
+margin-bottom:120px;
 }
 .dropdown {
     position: relative;
@@ -472,7 +488,7 @@ border-bottom: solid black 4px;
 cursor:pointer;
 }
 footer{
-top: 1300px;
+top: 1650px;
 z-index:-1;
 height:120px;
 }
