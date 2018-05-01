@@ -131,7 +131,7 @@ top:-10px;
 background: url("images/romeo1.jpg") no-repeat;
 background-size:contain;	
 }
-#box1:hover{
+#box1:hover, #three-boxes ol li span:hover{
 background: url("images/romeo2.jpg") no-repeat;
 background-size:contain;	
 }
@@ -139,7 +139,7 @@ background-size:contain;
 background: url("images/titanic1.jpg") no-repeat;
 background-size:contain;	
 }
-#box2:hover{
+#box2:hover, #three-boxes ol li span:hover{
 background: url("images/titanic2.jpg") no-repeat;
 background-size:contain;	
 }
@@ -147,7 +147,7 @@ background-size:contain;
 background: url("images/romeo1.jpg") no-repeat;
 background-size:contain;	
 }
-#box3:hover{
+#box3:hover, #three-boxes ol li span:hover{
 background: url("images/romeo2.jpg") no-repeat;
 background-size:contain;	
 }
