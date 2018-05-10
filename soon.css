@@ -9,6 +9,9 @@ margin:0 auto;
 position:relative;
 top:35%;
 }
+.text a {
+text-decoration:none;	
+}
 #coming{
 font-size:30px;
 }
