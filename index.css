@@ -114,10 +114,40 @@ object-fit: cover;
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
-
+#three-boxes #three-texts h4{
+color:black;	
+font-size:30px;
+margin:40px;
+display:inline;
+width:30px;
+font-family:Oswald;
+position:relative;
+top:-40px;
+border-bottom:solid white 5px;
+}
+#three-boxes #three-texts h4:hover{
+border-bottom:solid black 5px;	
+}
+#three-boxes #text1{
+position:relative;
+left:-14px;
+}
+#three-boxes #text2{
+position:relative;
+left:20px;
+}
+#three-boxes #text3{
+position:relative;
+left:40px;
+}
+#three-boxes #three-texts{
+position:relative;
+top:-280px;	
+}
 #three-boxes{
 text-align:center;
-margin-top: 85px;
+position:relative;
+top:40px;
 }
 #three-boxes img{
 	height: 325px;
