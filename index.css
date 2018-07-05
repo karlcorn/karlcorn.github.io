@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Oswald:600,700');
-
 *{
   font-family:Questrial;
     padding: 0;
@@ -107,6 +106,22 @@ object-fit: cover;
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
+#label{
+position:relative;
+top:40px;
+height:0px;
+width:100%;
+margin-left: -800px;
+}
+#label div{
+width:	400px;
+margin:0 auto;
+position:relative;
+left:-315px;
+}
+#label h1{
+font-weight:100;	
+}
 #three-boxes #three-texts h4{
 color:black;	
 font-size:30px;
@@ -141,7 +156,7 @@ height:10px;
 #three-boxes{
 text-align:center;
 position:relative;
-top:60px;
+top:90px;
 }
 #three-boxes img{
 	height: 325px;
@@ -199,7 +214,7 @@ left:-3px;
 }
 footer{
   position: absolute;
-top: 1133px;
+top: 1169px;
 width: 100%;
 height: 180px;
 text-align:center;
@@ -305,8 +320,17 @@ position:relative;
 top: -13px;
 	opacity: 1;	
 }
+#label div{
+margin:0;
+position:relative;
+left:20px;
+top:-33px;
+}
+#label h1{
+font-size:28px;	
+}
 #three-boxes{
-top:30px;	
+top:50px;	
 }
 #three-boxes,#three-boxes div{
 height:400px;
@@ -385,6 +409,10 @@ left:-6px;
 #three-boxes #three-texts h4{	
 font-size:27px;
 }
+#three-boxes{
+position:relative;
+top:75px;	
+}
 }
 @media screen and (max-width: 600px) {
 	#menu{
@@ -450,11 +478,18 @@ top:12px;
 	height: 300px;
 	position: relative;
 }
+#label{
+position:relative;
+top:50px;	
+}
+#label h1{
+font-size:25px;	
+}
 #three-boxes{
 width:100%;
 text-align:center;	
 position:relative;
-top:40px;
+top:50px;
 }
 #three-boxes img{
 height: 300px;

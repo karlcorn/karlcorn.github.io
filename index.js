@@ -1,5 +1,18 @@
 $(document).ready(function(){
 	
+  $(window).scroll( function(){
+        $('#label').each( function(){
+          
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if( bottom_of_window > bottom_of_object ){
+                
+                  $("#label").animate({ "margin-left": 0 }, 1000);
+                   
+            }
+		});
+	});
+
 	function hasTouch() {
     return 'ontouchstart' in document.documentElement
            || navigator.maxTouchPoints > 0
