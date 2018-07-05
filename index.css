@@ -8,6 +8,7 @@
   font-family:Questrial;
     padding: 0;
 	text-decoration:none;
+	border:solid red 2px;
 }
 .dropdown{
 display:none;	
