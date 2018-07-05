@@ -25,7 +25,7 @@ if (hasTouch()) { // remove all :hover stylesheets
 
 
 $(window).on('resize',function(){
-    if (($(window).width() > 1050) && ($(window).width() < 1080)) {   
+    if (($(window).width() > 1060) && ($(window).width() < 1080)) {   
       location.reload();  // refresh page 
     }
 }); 

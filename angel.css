@@ -104,6 +104,9 @@ padding-bottom:4px;
   top: 0px;
 left:7px;
 }
+#side div ul{
+text-align:left;
+}
 #example{
 display:block;	
 }
@@ -213,12 +216,6 @@ vertical-align: middle;
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
-footer{
-width:100%;	
-padding:0;
-margin:0;
-}
 body {
 margin:0;
 padding:0;
@@ -242,6 +239,9 @@ height: 180px;
 text-align:center;
 background: rgba(0,0,0,0.9);
 left:0;
+width:100%;	
+padding:0;
+margin:0;
 }
 #copyright{
 	position:relative;
@@ -297,6 +297,11 @@ text-align:right;
 	float:left;	
 	top:-5px;
 	}
+	#side div ul{
+text-align:left;
+position:relative;
+top:30px;
+}
 	#example{
 	display:none;	
 	}
@@ -389,7 +394,7 @@ font-size:15px;
 	border-bottom: solid black 5px	;
 }
 footer{
-top: 700px;
+top: 800px;
 z-index:-1;
 height:160px;
 }
@@ -546,7 +551,7 @@ position:relative;
 top:-67px;
 }
 footer{
-top: 1070px;
+top: 1170px;
 z-index:-1;
 height:150px;
 }
