@@ -8,7 +8,6 @@
   font-family:Questrial;
     padding: 0;
 	text-decoration:none;
-	border:solid red 2px;
 }
 .dropdown{
 display:none;	
@@ -416,7 +415,7 @@ position:fixed;
 z-index:2;
 top:17px;
 left:20px;
-  z-index:1;
+  z-index:13;
 }
 #menu img{ 
   width:25px;
@@ -486,8 +485,9 @@ width:300px;
 margin:0px;
 margin-bottom:70px;
 }
+
 #three-boxes #three-texts a{
-	width:400px;
+	width:300px;
 	top:-210px;
 	left:13px;
 	margin-bottom:370px;
