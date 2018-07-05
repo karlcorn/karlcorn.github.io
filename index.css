@@ -9,7 +9,6 @@
     padding: 0;
 	text-decoration:none;
 }
-body, html { overflow-x:hidden; }
 .dropdown{
 display:none;	
 }
@@ -416,7 +415,7 @@ position:fixed;
 z-index:2;
 top:17px;
 left:20px;
-  z-index:13;
+  z-index:1;
 }
 #menu img{ 
   width:25px;
